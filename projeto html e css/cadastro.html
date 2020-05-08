@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Cadastro</title>   
+        <link rel="stylesheet" type="text/css" href="css/estilocadastro.css"/> 
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    </head>
+    <body>
+        <header >
+            <img id="logo" src="img/logo.png" width="90px">
+            <h1 id="topo" >GameNews</h1>         
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html"> Inicio </a></li>
+                <li><a href="tabela.html"> Tabela de times </a></li>
+                <li><a href="cadastro.html"> Formulário </a></li>
+            </ul>
+        </nav>        
+    
+        <div class="container">
+            <form method="post" action="">
+                <legend>Identificação do usuário</legend>
+                
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" size="30" maxlength="40" style="max-width: 200px;"
+                placeholder="Seu E-mail">
+            </p>
+
+            <p>
+                <label for="nome">Nome:</label> 
+                <input type="text" id="nome" size="40" maxlength="80" style="max-width: 200px;"
+                placeholder="Nome Completo">   
+            </p>
+            
+            <p>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" size="8" maxlength="8"
+                placeholder="Sua senha"> 
+            </p>
+            
+            <p>
+                <label for="data">Data de nascimento:</label>
+                <input type="date" id="data">
+            </p>
+            
+            <p>
+                Sexo:
+                <input type="radio" id="Masculino" name="sexo" value="M">
+                <label for="Masculino">Masculino</label>
+                <input type="radio" id="Feminino" name="sexo" value="F">
+                <label for="Feminino">Feminino</label>
+            </p>
+
+
+            <p>
+                <input id="botao" type="submit" value="Cadastrar">
+                <input id="botao" type="reset" value="Limpar Dados">
+            </p>
+            </form>
+        </div>
+        <footer>
+            <p> &copy;João Pedro </p>
+        </footer>
+    </body>
+</html>

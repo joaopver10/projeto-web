@@ -1,0 +1,112 @@
+a:hover {
+    color:rgba(228, 158, 67, 0.856);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#logo{
+    margin-left: 510px;
+    margin-top: 32px;
+    
+}
+header{
+    background-color: rgba(180, 25, 51, 0.884);
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    margin-bottom: -22px;
+}
+
+
+#topo{
+    text-align: center;
+    font-style: italic;
+    margin-left: 28px;
+    margin-top: -70px; 
+    padding-bottom: 45px;
+     
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 237, 234);
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: rgba(13, 13, 14, 0.884);
+    padding: 15px;
+    margin-left: -55px;
+    margin-right: -8px;
+    box-shadow: black 1px 2px 5px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+   
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+article{
+    text-align: center;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: black;
+    border-style:dotted ;
+    border-bottom-width: 2px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+section{
+    border: black;
+    border-style:dotted ;
+    border-bottom-width: 0;
+    border-top-width: 2px;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+
+article h1{
+    text-align: center;
+}
+
+article img{
+    margin-left: 0px;
+}
+article p{
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 14pt;
+}
+
+article section h1{
+    text-align: center;
+    font-size: 15pt;
+}
+
+#topico{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: rgba(13, 13, 14, 0.884);
+    position: absolute;
+    width: 98%;
+    margin-left: -11px;
+    margin-top: 60px;
+}
+

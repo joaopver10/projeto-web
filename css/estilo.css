@@ -5,8 +5,8 @@ a:hover {
 }
 
 #logo{
-    margin-left: 510px;
-    margin-top: 32px;
+    margin-left: 38%;
+    margin-top: 3%;
     
 }
 header{
@@ -108,5 +108,14 @@ footer{
     width: 98%;
     margin-left: -11px;
     margin-top: 60px;
+}
+
+@media (max-device-width: 700px){
+    #logo{
+        position: relative;
+        margin-left: 3%;
+        margin-top: 3%;
+        
+    }
 }
 

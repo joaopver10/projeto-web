@@ -1,56 +1,46 @@
-a:hover {
+
+#menu a:hover {
     color:rgba(228, 158, 67, 0.856);
     text-decoration: underline;
     cursor: pointer;
 }
 
-#logo{
-    margin-left: 38%;
-    margin-top: 3%;
-    
-}
-header{
-    background-color: rgba(180, 25, 51, 0.884);
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-top: -8px;
-    margin-bottom: -22px;
-}
-
-
 #topo{
-    text-align: center;
-    font-style: italic;
-    margin-left: 28px;
-    margin-top: -70px; 
-    padding-bottom: 45px;
-     
+    padding:15px;
+    display: flex;
+    justify-content:space-between;
+    background:black;
+    color: white;
 }
+
 
 body {
+    margin: 0 auto;
+    padding: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(240, 237, 234);
 }
 
-nav ul{
+nav#menu  ul{
+    display: flex;
+    justify-content: center;
     list-style: none;
     text-align: center;
     background-color: rgba(13, 13, 14, 0.884);
     padding: 15px;
-    margin-left: -55px;
-    margin-right: -8px;
     box-shadow: black 1px 2px 5px;
 }
 
-nav ul li{
-    display: inline-block;
+#menu ul li{
     margin-left: 10px;
-   
+
 }
 
-nav ul li a{
+#menu ul li a{
     color: white;
     text-decoration: none;
+}
+ul{
+    margin: 0 auto;
 }
 
 article{
@@ -78,9 +68,14 @@ article h1{
     text-align: center;
 }
 
-article img{
+article div img{
+    max-width: 430px;
     margin-left: 0px;
 }
+section img{
+    max-width: 430px;
+}
+
 article p{
     text-align: justify;
     padding-left: 10%;
@@ -100,22 +95,33 @@ article section h1{
 }
 
 footer{
-    text-align: center;
-    padding: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
     color: white;
     background-color: rgba(13, 13, 14, 0.884);
-    position: absolute;
-    width: 98%;
-    margin-left: -11px;
-    margin-top: 60px;
 }
 
-@media (max-device-width: 700px){
-    #logo{
-        position: relative;
-        margin-left: 3%;
-        margin-top: 3%;
-        
+@media (max-device-width: 600px){
+    article div img{
+        max-width: 330px;
+        margin-left: 0px;
     }
+    section img{
+        max-width: 330px;
+    }
+
+    article p{
+        text-align: left;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 14pt;
+    }
+    #topico{
+        text-align: center;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+  
 }
 

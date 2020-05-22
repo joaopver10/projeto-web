@@ -1,3 +1,8 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 #menu a:hover {
     color:rgba(228, 158, 67, 0.856);
@@ -9,16 +14,12 @@
     padding:15px;
     display: flex;
     justify-content:space-between;
-    background:black;
+    background:rgba(184, 41, 41, 0.877);
     color: white;
+    font-style: italic;
 }
 
 
-body {
-    margin: 0 auto;
-    padding: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 nav#menu  ul{
     display: flex;
@@ -44,17 +45,11 @@ ul{
 }
 
 article{
+	margin: 10px;
     text-align: center;
-    margin: auto;
-    margin-left: 50px;
-    margin-right: 50px;
-    border: black;
-    border-style:dotted ;
-    border-bottom-width: 2px;
-    border-top-width: 0;
-    border-right-width: 0;
-    border-left-width: 0;
+	font-size: 1.5em;
 }
+
 section{
     border: black;
     border-style:dotted ;
@@ -68,19 +63,20 @@ article h1{
     text-align: center;
 }
 
-article div img{
+article  img{
     max-width: 430px;
-    margin-left: 0px;
 }
 section img{
     max-width: 430px;
 }
 
 article p{
-    text-align: justify;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 14pt;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+	text-align: center;
+	font-size: 14pt;
 }
 
 article section h1{
@@ -88,11 +84,7 @@ article section h1{
     font-size: 15pt;
 }
 
-#topico{
-    text-align: center;
-    padding-left: 30%;
-    padding-right: 30%;
-}
+
 
 footer{
     display: flex;
@@ -103,7 +95,7 @@ footer{
 }
 
 @media (max-device-width: 600px){
-    article div img{
+    article img{
         max-width: 330px;
         margin-left: 0px;
     }

@@ -3,6 +3,7 @@ table th{
     text-align: center;
     margin: auto;
     width: 40%;
+
     
 
 }
@@ -21,6 +22,7 @@ table{
     border-radius: 6px;
     margin: auto;
     border-collapse: collapse;
+    margin-bottom: 10px;
     
 
 }
@@ -30,12 +32,18 @@ table{
     background-color: rgb(12, 12, 12); 
  
 }
-
-#corpoimg{
-    max-width: 500px;
-    margin: 0 auto;
+div{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
 }
 
-#foto{
-    max-width: 100%;
+div img{
+    max-width: 500px;
+}
+
+@media (max-width: 600px){
+    div img{
+        max-width: 300px;
+    }
 }

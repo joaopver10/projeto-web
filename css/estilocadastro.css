@@ -1,3 +1,7 @@
+#botao:hover{
+    background: orange;
+}
+
 #senha, #email, #senha2, #nome, #data{
     border-radius: 50px;
     border: black 1px solid;
@@ -25,7 +29,8 @@ legend{
     max-width: 300px;
     padding: 10px;
     border-radius: 20px;
-    margin-top:50px;
+    margin-top: 30px;
+    margin-bottom: 45px;
     margin-left:500px;
     box-shadow: black 1px 2px 3px;
     
@@ -33,7 +38,3 @@ legend{
 }
 
 
-
-#botao:hover{
-    background: orange;
-}

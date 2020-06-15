@@ -1,0 +1,99 @@
+body{
+background: rgb(54, 185, 168);
+font: normal 11pt Arial;
+margin: 0 auto;
+color: #222222;
+font-family: "Roboto", "Helvetica", "sans-serif";
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.menu-bg{
+    background: black;
+    color: white;
+}
+
+.menu{
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 0px;
+    margin: 0 auto;
+}
+.menu-logo{
+    font-size:  13pt ;   
+    font-weight: bold;
+    margin: 0 10px;
+
+}
+.menu a{
+    color: white;
+}
+
+.menu nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu nav a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+.menu nav a:hover{
+    color: yellow;
+}
+
+
+
+
+section{
+background-color: white;
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: 80px auto;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.671);
+
+}
+
+
+
+
+footer{
+    display: flex;
+    padding: 20px;
+    color: white;
+    background-color: rgba(13, 13, 14, 0.884);
+    justify-self: flex-end;
+}
+
+footer p{
+    flex: 1;
+    text-align: center;
+}
+
+
+
+.rodape{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}

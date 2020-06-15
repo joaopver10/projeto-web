@@ -3,6 +3,10 @@ body, h1, h2, p, ul, li, a{
     padding: 0px;
 
 }
+#enviar:hover{
+    background-color: rgb(230, 102, 79);
+    cursor: pointer;
+}
 
 a{
     text-decoration: none;
@@ -106,15 +110,12 @@ body {
 }
 
 
-
-
-
 footer{
     display: flex;
     padding: 20px;
     color: white;
     background-color: rgba(13, 13, 14, 0.884);
-    align-items: center;
+    justify-self: flex-end;
 }
 
 footer p{
@@ -122,4 +123,40 @@ footer p{
     text-align: center;
 }
 
+#formulario{
+   display: flex;
+   flex-direction: column;
+   padding: 40px;
+   width: 300px;
+   margin: 60px auto;
+   background-color: rgb(25, 66, 141);
+   border-radius: 10px;
+}
 
+#nome, #email, #senha{
+    width: 200px;
+    padding: 12px 3px 12px 3px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#texto{
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+#enviar{
+    margin: 7px 0px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    border-style: none;
+
+}
+
+.rodape{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}

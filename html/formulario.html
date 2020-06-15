@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+ 
+</head>
+    <body>
+        <header class="menu-bg" >
+            <div class="menu">
+                <div class="menu-logo">
+                    <h1 >InfoNews</h1>
+                </div>     
+                <nav>            
+                    <ul>
+                        <li><a href="../index.html"> Inicio </a></li>
+                        <li><a href="noticia.html"> Noticias </a></li>
+                        <li><a href="formulario.html"> Formulário </a></li>
+                    </ul>
+                </nav>
+            </div>        
+        </header> 
+
+        <form id="formulario">
+        
+            <input type="name" id="nome" name="name" placeholder="Nome"> 
+
+            <input type="email" id="email" name="email" placeholder="Email"> 
+
+            <textarea name="texto" id="texto" cols="30" rows="5" placeholder="Sua mensagem..."></textarea>
+            
+            <div class="botao">
+                <input type="submit" id="enviar" name="enviar" onclick="validacad()" >
+            </div>
+        </form>
+
+    
+
+    <footer class="rodape"> 
+        <p> &copy;João Pedro </p>
+    </footer>
+    <script src="../js/cadastro.js"></script>
+</body>
+</html>
